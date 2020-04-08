@@ -19,11 +19,11 @@
 
 ### Результаты проверки.
 
-При Refill=0 полученный результат TotalBonus1=0 ClientBill=100.
-При Refill=999 полученный результат TotalBonus1=0 ClientBill=1099.
-При Refill=1000 полученный результат TotalBonus1=10 ClientBill=1000.
-При Refill=1001 полученный результат TotalBonus1=10 ClientBill=1001.
-При Refill=-1000 полученный результат TotalBonus1=0 ClientBill=-900.
+- При Refill=0 полученный результат TotalBonus1=0 ClientBill=100.
+- При Refill=999 полученный результат TotalBonus1=0 ClientBill=1099.
+- При Refill=1000 полученный результат TotalBonus1=10 ClientBill=1000.
+- При Refill=1001 полученный результат TotalBonus1=10 ClientBill=1001.
+- При Refill=-1000 полученный результат TotalBonus1=0 ClientBill=-900.
 
 Приложение проверку прошло
 
