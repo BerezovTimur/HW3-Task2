@@ -1,19 +1,19 @@
 public class Main {
     public static void main(String[] args) {
-        float clientbillstart = 100F;
-        float clientbill;
+        float clientBillStart = 100F;
+        float clientBill;
         float refill = 1000F;
         if (refill >= 1000) {
             float bonus = 100F;
-            float totalbonus = refill / bonus;
-            int finalbonus = (int) totalbonus;
-            System.out.println("Bonus: " + finalbonus);
-            clientbill = clientbillstart + refill;
-            System.out.println("Client Bill: " + clientbill);
+            float totalBonus = refill / bonus;
+            int finalBonus = (int) totalBonus;
+            System.out.println("Bonus: " + finalBonus);
+            clientBill = clientBillStart + refill;
+            System.out.println("Client Bill: " + clientBill);
         }
         else {
-            clientbill = clientbillstart + refill;
-            System.out.println("Client Bill: " + clientbill);
+            clientBill = clientBillStart + refill;
+            System.out.println("Client Bill: " + clientBill);
         }
     }
 }
